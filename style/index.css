@@ -8,6 +8,7 @@
 body {
     background-color:whitesmoke;
     color:rgb(55, 55, 55);
+    font-family: Verdana,Geneva,sans-serif; 
 }
 
 header, footer {
@@ -30,6 +31,10 @@ header, footer {
     text-decoration: none;
 }
 
+.btn:hover {
+    background-color:paleturquoise;
+}
+
 header .container {
     display:flex;
     justify-content: space-between;
@@ -46,11 +51,16 @@ nav a {
     padding: 2% 0;
     width:100px;
     text-decoration:none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin:0 2%;
     background-color:whitesmoke;
     color:coral;
     border-radius:5px;
+    transition:200ms;
+}
+
+nav a:hover {
+    background-color:paleturquoise;
 }
 
 #hero {
@@ -70,7 +80,10 @@ nav a {
 #projects {
     display:flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+}
+
+.project {
+    margin-right:2%;
 }
 
 p.caption {
@@ -89,4 +102,14 @@ footer {
 footer .btn {
     background-color:whitesmoke;
     color:coral;
+}
+
+#social {
+    margin-top:5%;
+    font-size:.8rem;
+}
+
+#social a {
+    color:whitesmoke;
+    margin:2%;
 }
