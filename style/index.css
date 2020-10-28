@@ -3,7 +3,6 @@
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border:1px solid gray;
 }
 
 body {
@@ -19,6 +18,16 @@ header, footer {
 .container {
     margin:0px auto;
     max-width:900px;
+}
+
+.btn {
+    display:inline-block;
+    text-align:center;
+    padding:2% 6%;
+    background-color:coral;
+    border-radius:5px;
+    color:whitesmoke;
+    text-decoration: none;
 }
 
 header .container {
@@ -41,6 +50,7 @@ nav a {
     margin:0 2%;
     background-color:whitesmoke;
     color:coral;
+    border-radius:5px;
 }
 
 #hero {
@@ -71,6 +81,12 @@ p.caption {
 }
 
 footer {
+    margin-top:2%;
     text-align:center;
     padding:3% 0;
+}
+
+footer .btn {
+    background-color:whitesmoke;
+    color:coral;
 }
