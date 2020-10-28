@@ -1,1 +1,76 @@
 /* Add CSS styling here */
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    border:1px solid gray;
+}
+
+body {
+    background-color:whitesmoke;
+    color:rgb(55, 55, 55);
+}
+
+header, footer {
+    background-color:coral;
+    color:whitesmoke;
+}
+
+.container {
+    margin:0px auto;
+    max-width:900px;
+}
+
+header .container {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+nav {
+    display:flex;
+}
+
+nav a {
+    display:inline-block;
+    text-align: center;
+    padding: 2% 0;
+    width:100px;
+    text-decoration:none;
+    letter-spacing: 2px;
+    margin:0 2%;
+    background-color:whitesmoke;
+    color:coral;
+}
+
+#hero {
+    display:flex;
+    margin:3% 0;
+}
+
+#hero img {
+    max-width:50%;
+    display:inline-block;
+}
+
+.hero-info {
+    padding:5%;
+}
+
+#projects {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+p.caption {
+    font-size:.9rem;
+    color:gray;
+    text-align:center;
+    margin-top:2%;
+}
+
+footer {
+    text-align:center;
+    padding:3% 0;
+}
