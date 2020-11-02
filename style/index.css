@@ -121,3 +121,17 @@ footer .btn {
     font-size:1.6rem;
 }
 
+/****** MOBILE STYLES ******/
+@media (max-width: 500px) {
+    header .container {
+        flex-direction:column;
+    }
+    #hero {
+        flex-direction: column;
+        justify-content:flex-end;
+    }
+    .hero-info {
+        text-align:center;
+    }
+    
+}
