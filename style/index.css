@@ -139,3 +139,10 @@ footer .btn {
     }
     
 }
+
+/**** TABLET ****/
+@media (max-width:800px) {
+    #projects {
+        justify-content:space-evenly;
+    }
+}
