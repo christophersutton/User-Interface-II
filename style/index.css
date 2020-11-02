@@ -67,6 +67,10 @@ nav a:hover {
     background-color:paleturquoise;
 }
 
+nav a.active {
+        color:turquoise;
+}
+
 #hero {
     display:flex;
     margin:3% 0;
